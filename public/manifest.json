@@ -1,0 +1,43 @@
+{
+  "name": "T's Safaris And Tours",
+  "short_name": "tssafarisandtours",
+  "description": "T'S Safaris presents an exceptional array of tour experiences that encompass both the wonders of wildlife and the authenticity of diverse cultures, inviting you to explore the wonders of Uganda's wildlife and immerse yourself.",
+  "theme_color": "#fbf8fc",
+  "background_color": "#fbf8fc",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./icons/favicon-16x16.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/favicon-32x32.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

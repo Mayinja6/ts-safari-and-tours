@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply scroll-smooth;
+}
+
+body {
+  @apply bg-base-100 text-neutral font-['montserrat',_sans-serif] font-medium;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  /* Playfair display, Space Grotesk, Montserrat */
+  @apply font-['Roboto_slab',_sans-serif] font-bold tracking-wide;
+}
+
+@layer components {
+  .tsat__space {
+    @apply px-4 sm:px-7 md:px-10 lg:px-[96px];
+  }
+
+  .tsat__btn {
+    @apply text-[16px] font-['montserrat'] font-bold leading-[1] py-3 px-6 bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear hover:bg-accent cursor-pointer;
+  }
+
+  .tsat__btn-rev {
+    @apply text-[12px] sm:text-[14px] md:text-[16px] font-['montserrat'] font-bold leading-[1] py-[10px] px-[20px] md:px-[25px] hover:bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear bg-secondary cursor-pointer;
+  }
+
+  .link__hover {
+    @apply duration-300 ease-in-out transition-all hover:text-primary-500 cursor-pointer;
+  }
+
+  .tsat__subtitle {
+    @apply text-secondary text-[13px] font-semibold relative pl-[45px] md:pl-[80px] before:absolute before:w-[40px] md:before:w-[70px] before:h-[2px] before:top-1/2 before:left-[0px] before:bg-secondary font-['montserrat'] mb-3;
+  }
+
+  .tsat__title {
+    @apply text-[24px] sm:text-[30px] md:text-[42px] lg:text-[48px] mb-[15px] font-black;
+  }
+
+  .day_overlay_before {
+    @apply before:absolute before:bg-day_overlay before:content-['']  before:w-full before:h-full before:opacity-[0.7] before:inset-0;
+  }
+
+  .night_overlay_before {
+    @apply before:absolute before:bg-night_overlay before:content-['']  before:w-full before:h-full before:opacity-[0.7] before:inset-0;
+  }
+
+  .header__link ul {
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 0.3s ease-in-out;
+  }
+  .header__link:hover ul {
+    opacity: 1;
+    visibility: visible;
+  }
+}
