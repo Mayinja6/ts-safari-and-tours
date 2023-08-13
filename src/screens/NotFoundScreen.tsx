@@ -10,7 +10,7 @@ export default function NotFoundScreen() {
       }}
     >
       <div className='w-full relative text-base-100'>
-        <span className='text-[145px] md:text-[224px] lg:text-[300px] text-[rgba(255,255,255,0.32)] font-[poppins] font-black leading-[1]'>
+        <span className='text-[145px] md:text-[224px] lg:text-[300px] text-[rgba(255,255,255,0.32)] font-[montserrat] font-black leading-[1]'>
           404
         </span>
         <h2 className='text-base-100 absolute top-1/2 left-0 right-0 -translate-y-[145%] sm:-translate-y-[80%]  mb-0 text-[32px] md:text-[40px] tsat__title lg:text-[65px]'>

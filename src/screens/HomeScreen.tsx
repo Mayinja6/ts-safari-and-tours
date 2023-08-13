@@ -118,18 +118,18 @@ export default function HomeScreen() {
           <Divider_ />
         </div>
 
-        <div className='my-12 relative flex items-center justify-evenly md:justify-start lg:justify-evenly flex-wrap gap-x-2'>
+        <div className='my-12 relative flex items-center justify-evenly flex-wrap gap-x-2'>
           {[...tours_].slice(0, 4).map((tour) => (
             <SingleTour key={tour.id} {...tour} />
           ))}
-          <div className='mb-20 mt-10 flex justify-center'>
-            {tours_.length > 4 && (
-              <Link to='/tours'>
-                <button className='tsat__btn py-4'>MORE DESTINATIONS</button>
-              </Link>
-            )}
-          </div>
         </div>
+        {tours_.length > 4 && (
+          <div className='mb-20 mt-10 flex justify-center'>
+            <Link to='/tours'>
+              <button className='tsat__btn py-4'>MORE DESTINATIONS</button>
+            </Link>
+          </div>
+        )}
       </section>
 
       <section className=' tsat__space pb-10'>
@@ -184,7 +184,7 @@ export default function HomeScreen() {
                 <h2 className='tsat__title lg:text-[45px] leading-tight'>
                   ULTIMATE GUIDE TO EPIC ADVENTURE
                 </h2>
-                <div className='mt-5 pl-8'>
+                <div className='mt-5 pl-10 md:pl-8'>
                   <Divider_ />
                 </div>
                 <p className='text-[14px]'>

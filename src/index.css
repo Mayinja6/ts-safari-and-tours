@@ -16,7 +16,7 @@ h3,
 h4,
 h5,
 h6 {
-  /* Playfair display, Space Grotesk, Montserrat */
+  /* Playfair display, Space Grotesk, Roboto_slab */
   @apply font-['Roboto_slab',_sans-serif] font-bold tracking-wide;
 }
 
@@ -26,11 +26,11 @@ h6 {
   }
 
   .tsat__btn {
-    @apply text-[16px] font-['montserrat'] font-bold leading-[1] py-3 px-6 bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear hover:bg-accent cursor-pointer;
+    @apply text-[16px] font-['Roboto_slab'] font-bold leading-[1] py-3 px-6 bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear hover:bg-accent cursor-pointer;
   }
 
   .tsat__btn-rev {
-    @apply text-[12px] sm:text-[14px] md:text-[16px] font-['montserrat'] font-bold leading-[1] py-[10px] px-[20px] md:px-[25px] hover:bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear bg-secondary cursor-pointer;
+    @apply text-[12px] sm:text-[14px] md:text-[16px] font-['Roboto_slab'] font-bold leading-[1] py-[10px] px-[20px] md:px-[25px] hover:bg-primary-500 text-white inline-block relative transition-all duration-300 ease-linear bg-secondary cursor-pointer;
   }
 
   .link__hover {
@@ -38,7 +38,7 @@ h6 {
   }
 
   .tsat__subtitle {
-    @apply text-secondary text-[13px] font-semibold relative pl-[45px] md:pl-[80px] before:absolute before:w-[40px] md:before:w-[70px] before:h-[2px] before:top-1/2 before:left-[0px] before:bg-secondary font-['montserrat'] mb-3;
+    @apply text-secondary text-[13px] font-semibold relative pl-[45px] md:pl-[80px] before:absolute before:w-[40px] md:before:w-[70px] before:h-[2px] before:top-1/2 before:left-[0px] before:bg-secondary font-['Roboto_slab'] mb-3;
   }
 
   .tsat__title {
